@@ -21,9 +21,6 @@ def plot_cosine_wave():
 
     plt.figure(figsize=(8, 4))
     plt.plot(x, y, label='cos(x)', color='orange')
-    plt.title('Cosine Wave Example')
-    plt.xlabel('x (radians)')
-    plt.ylabel('yyyyy')
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
