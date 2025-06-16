@@ -14,6 +14,17 @@ def plot_sine_wave():
     plt.grid(True)
     plt.tight_layout()
     plt.show()
+    
+def plot_cosine_wave():
+    x = np.linspace(0, 2 * np.pi, 100)
+    y = np.cos(x)
+
+    plt.figure(figsize=(8, 4))
+    plt.plot(x, y, label='cos(x)', color='orange')
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
 
 def plot_square_wave():
     x = np.linspace(0, 2 * np.pi, 100)
